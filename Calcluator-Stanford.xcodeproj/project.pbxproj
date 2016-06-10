@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEB014B41D0B608400575265 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB014B31D0B608400575265 /* AppDelegate.swift */; };
+		BEB014B61D0B608400575265 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB014B51D0B608400575265 /* ViewController.swift */; };
+		BEB014B91D0B608400575265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB014B71D0B608400575265 /* Main.storyboard */; };
+		BEB014BB1D0B608400575265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB014BA1D0B608400575265 /* Assets.xcassets */; };
+		BEB014BE1D0B608400575265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB014BC1D0B608400575265 /* LaunchScreen.storyboard */; };
+		BEB014C91D0B608400575265 /* Calcluator_StanfordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB014C81D0B608400575265 /* Calcluator_StanfordTests.swift */; };
+		BEB014D41D0B608400575265 /* Calcluator_StanfordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB014D31D0B608400575265 /* Calcluator_StanfordUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEB014C51D0B608400575265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEB014A81D0B608400575265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB014AF1D0B608400575265;
+			remoteInfo = "Calcluator-Stanford";
+		};
+		BEB014D01D0B608400575265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEB014A81D0B608400575265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB014AF1D0B608400575265;
+			remoteInfo = "Calcluator-Stanford";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEB014B01D0B608400575265 /* Calcluator-Stanford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calcluator-Stanford.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB014B31D0B608400575265 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEB014B51D0B608400575265 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEB014B81D0B608400575265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEB014BA1D0B608400575265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEB014BD1D0B608400575265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEB014BF1D0B608400575265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB014C41D0B608400575265 /* Calcluator-StanfordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calcluator-StanfordTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB014C81D0B608400575265 /* Calcluator_StanfordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calcluator_StanfordTests.swift; sourceTree = "<group>"; };
+		BEB014CA1D0B608400575265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB014CF1D0B608400575265 /* Calcluator-StanfordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calcluator-StanfordUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB014D31D0B608400575265 /* Calcluator_StanfordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calcluator_StanfordUITests.swift; sourceTree = "<group>"; };
+		BEB014D51D0B608400575265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEB014AD1D0B608400575265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB014C11D0B608400575265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB014CC1D0B608400575265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEB014A71D0B608400575265 = {
+			isa = PBXGroup;
+			children = (
+				BEB014B21D0B608400575265 /* Calcluator-Stanford */,
+				BEB014C71D0B608400575265 /* Calcluator-StanfordTests */,
+				BEB014D21D0B608400575265 /* Calcluator-StanfordUITests */,
+				BEB014B11D0B608400575265 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEB014B11D0B608400575265 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEB014B01D0B608400575265 /* Calcluator-Stanford.app */,
+				BEB014C41D0B608400575265 /* Calcluator-StanfordTests.xctest */,
+				BEB014CF1D0B608400575265 /* Calcluator-StanfordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEB014B21D0B608400575265 /* Calcluator-Stanford */ = {
+			isa = PBXGroup;
+			children = (
+				BEB014B31D0B608400575265 /* AppDelegate.swift */,
+				BEB014B51D0B608400575265 /* ViewController.swift */,
+				BEB014B71D0B608400575265 /* Main.storyboard */,
+				BEB014BA1D0B608400575265 /* Assets.xcassets */,
+				BEB014BC1D0B608400575265 /* LaunchScreen.storyboard */,
+				BEB014BF1D0B608400575265 /* Info.plist */,
+			);
+			path = "Calcluator-Stanford";
+			sourceTree = "<group>";
+		};
+		BEB014C71D0B608400575265 /* Calcluator-StanfordTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEB014C81D0B608400575265 /* Calcluator_StanfordTests.swift */,
+				BEB014CA1D0B608400575265 /* Info.plist */,
+			);
+			path = "Calcluator-StanfordTests";
+			sourceTree = "<group>";
+		};
+		BEB014D21D0B608400575265 /* Calcluator-StanfordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEB014D31D0B608400575265 /* Calcluator_StanfordUITests.swift */,
+				BEB014D51D0B608400575265 /* Info.plist */,
+			);
+			path = "Calcluator-StanfordUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEB014AF1D0B608400575265 /* Calcluator-Stanford */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB014D81D0B608400575265 /* Build configuration list for PBXNativeTarget "Calcluator-Stanford" */;
+			buildPhases = (
+				BEB014AC1D0B608400575265 /* Sources */,
+				BEB014AD1D0B608400575265 /* Frameworks */,
+				BEB014AE1D0B608400575265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calcluator-Stanford";
+			productName = "Calcluator-Stanford";
+			productReference = BEB014B01D0B608400575265 /* Calcluator-Stanford.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEB014C31D0B608400575265 /* Calcluator-StanfordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB014DB1D0B608400575265 /* Build configuration list for PBXNativeTarget "Calcluator-StanfordTests" */;
+			buildPhases = (
+				BEB014C01D0B608400575265 /* Sources */,
+				BEB014C11D0B608400575265 /* Frameworks */,
+				BEB014C21D0B608400575265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEB014C61D0B608400575265 /* PBXTargetDependency */,
+			);
+			name = "Calcluator-StanfordTests";
+			productName = "Calcluator-StanfordTests";
+			productReference = BEB014C41D0B608400575265 /* Calcluator-StanfordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEB014CE1D0B608400575265 /* Calcluator-StanfordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB014DE1D0B608400575265 /* Build configuration list for PBXNativeTarget "Calcluator-StanfordUITests" */;
+			buildPhases = (
+				BEB014CB1D0B608400575265 /* Sources */,
+				BEB014CC1D0B608400575265 /* Frameworks */,
+				BEB014CD1D0B608400575265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEB014D11D0B608400575265 /* PBXTargetDependency */,
+			);
+			name = "Calcluator-StanfordUITests";
+			productName = "Calcluator-StanfordUITests";
+			productReference = BEB014CF1D0B608400575265 /* Calcluator-StanfordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEB014A81D0B608400575265 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ben Smith";
+				TargetAttributes = {
+					BEB014AF1D0B608400575265 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BEB014C31D0B608400575265 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BEB014AF1D0B608400575265;
+					};
+					BEB014CE1D0B608400575265 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BEB014AF1D0B608400575265;
+					};
+				};
+			};
+			buildConfigurationList = BEB014AB1D0B608400575265 /* Build configuration list for PBXProject "Calcluator-Stanford" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEB014A71D0B608400575265;
+			productRefGroup = BEB014B11D0B608400575265 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEB014AF1D0B608400575265 /* Calcluator-Stanford */,
+				BEB014C31D0B608400575265 /* Calcluator-StanfordTests */,
+				BEB014CE1D0B608400575265 /* Calcluator-StanfordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEB014AE1D0B608400575265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB014BE1D0B608400575265 /* LaunchScreen.storyboard in Resources */,
+				BEB014BB1D0B608400575265 /* Assets.xcassets in Resources */,
+				BEB014B91D0B608400575265 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB014C21D0B608400575265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB014CD1D0B608400575265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEB014AC1D0B608400575265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB014B61D0B608400575265 /* ViewController.swift in Sources */,
+				BEB014B41D0B608400575265 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB014C01D0B608400575265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB014C91D0B608400575265 /* Calcluator_StanfordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB014CB1D0B608400575265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB014D41D0B608400575265 /* Calcluator_StanfordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEB014C61D0B608400575265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEB014AF1D0B608400575265 /* Calcluator-Stanford */;
+			targetProxy = BEB014C51D0B608400575265 /* PBXContainerItemProxy */;
+		};
+		BEB014D11D0B608400575265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEB014AF1D0B608400575265 /* Calcluator-Stanford */;
+			targetProxy = BEB014D01D0B608400575265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEB014B71D0B608400575265 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB014B81D0B608400575265 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEB014BC1D0B608400575265 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB014BD1D0B608400575265 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEB014D61D0B608400575265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEB014D71D0B608400575265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEB014D91D0B608400575265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Calcluator-Stanford/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Calcluator-Stanford";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEB014DA1D0B608400575265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Calcluator-Stanford/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Calcluator-Stanford";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEB014DC1D0B608400575265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Calcluator-StanfordTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Calcluator-StanfordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calcluator-Stanford.app/Calcluator-Stanford";
+			};
+			name = Debug;
+		};
+		BEB014DD1D0B608400575265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Calcluator-StanfordTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Calcluator-StanfordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calcluator-Stanford.app/Calcluator-Stanford";
+			};
+			name = Release;
+		};
+		BEB014DF1D0B608400575265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Calcluator-StanfordUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Calcluator-StanfordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Calcluator-Stanford";
+			};
+			name = Debug;
+		};
+		BEB014E01D0B608400575265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Calcluator-StanfordUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Calcluator-StanfordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Calcluator-Stanford";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEB014AB1D0B608400575265 /* Build configuration list for PBXProject "Calcluator-Stanford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB014D61D0B608400575265 /* Debug */,
+				BEB014D71D0B608400575265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB014D81D0B608400575265 /* Build configuration list for PBXNativeTarget "Calcluator-Stanford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB014D91D0B608400575265 /* Debug */,
+				BEB014DA1D0B608400575265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEB014DB1D0B608400575265 /* Build configuration list for PBXNativeTarget "Calcluator-StanfordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB014DC1D0B608400575265 /* Debug */,
+				BEB014DD1D0B608400575265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEB014DE1D0B608400575265 /* Build configuration list for PBXNativeTarget "Calcluator-StanfordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB014DF1D0B608400575265 /* Debug */,
+				BEB014E01D0B608400575265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEB014A81D0B608400575265 /* Project object */;
+}
