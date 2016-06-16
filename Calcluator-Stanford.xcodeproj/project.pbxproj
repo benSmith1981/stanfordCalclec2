@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE2F019A1D12926C000EE567 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2F01991D12926C000EE567 /* CalculatorBrain.swift */; };
 		BEB014B41D0B608400575265 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB014B31D0B608400575265 /* AppDelegate.swift */; };
 		BEB014B61D0B608400575265 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB014B51D0B608400575265 /* ViewController.swift */; };
 		BEB014B91D0B608400575265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB014B71D0B608400575265 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE2F01991D12926C000EE567 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		BEB014B01D0B608400575265 /* Calcluator-Stanford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calcluator-Stanford.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB014B31D0B608400575265 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEB014B51D0B608400575265 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				BEB014B31D0B608400575265 /* AppDelegate.swift */,
 				BEB014B51D0B608400575265 /* ViewController.swift */,
+				BE2F01991D12926C000EE567 /* CalculatorBrain.swift */,
 				BEB014B71D0B608400575265 /* Main.storyboard */,
 				BEB014BA1D0B608400575265 /* Assets.xcassets */,
 				BEB014BC1D0B608400575265 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2F019A1D12926C000EE567 /* CalculatorBrain.swift in Sources */,
 				BEB014B61D0B608400575265 /* ViewController.swift in Sources */,
 				BEB014B41D0B608400575265 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				BEB014DA1D0B608400575265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEB014DB1D0B608400575265 /* Build configuration list for PBXNativeTarget "Calcluator-StanfordTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				BEB014DD1D0B608400575265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEB014DE1D0B608400575265 /* Build configuration list for PBXNativeTarget "Calcluator-StanfordUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				BEB014E01D0B608400575265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
